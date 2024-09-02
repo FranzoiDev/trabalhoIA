@@ -122,5 +122,3 @@ print(grafo)
 grafo.busca_em_largura('frankfurt')
 grafo.busca_em_profundidade('frankfurt')
 grafo.busca_uniforme('frankfurt')
-
-{'frankfurt': [('wurzburg', 111), ('mannheim', 85)], 'wurzburg': [('frankfurt', 111)], 'mannheim': [('frankfurt', 85), ('karlsruhe', 67)], 'karlsruhe': [('mannheim', 67)]}
